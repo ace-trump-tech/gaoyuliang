@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+*.egg-info/
+
+# 环境
+.env
+*.env
+
+# 日志
+logs/
+*.log
+
+# 数据
+data/cache/
+data/audio/
+*.wav
+*.mp3
+*.pcm
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 模型权重
+models/*.pt
+models/*.onnx
+models/*.bin
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/

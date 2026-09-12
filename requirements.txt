@@ -1,0 +1,30 @@
+# 音频 I/O
+sounddevice>=0.4.6
+numpy>=1.26.0
+
+# 火山引擎（豆包 / ASR / TTS 共用 SDK）
+volcengine>=1.0.100
+volcenginesdkarkruntime>=1.0.0
+httpx>=0.27.0
+websockets>=12.0
+
+# 4 部委 SDK
+anthropic>=0.39.0
+claude-agent-sdk>=0.1.0     # 组织部用
+google-generativeai>=0.8.0  # 宣传部用
+openai>=1.60.0              # 社工部（Codex） + 政法委（DeepSeek，base_url 改）
+
+# VAD（仅方案 C 用）
+silero-vad>=5.1
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# 工具
+pyyaml>=6.0
+python-dotenv>=1.0
+pydub>=0.25.1              # TTS mp3 → pcm 转码
+pydantic>=2.7
+
+# 测试
+pytest>=8.0
+pytest-asyncio>=0.23

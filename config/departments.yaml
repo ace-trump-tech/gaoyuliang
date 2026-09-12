@@ -1,0 +1,55 @@
+# 4 部委的配置（秘书处派单用）
+#
+# 注意：实际模型名由环境变量 ANTHROPIC_MODEL / GEMINI_MODEL /
+#       OPENAI_MODEL / DEEPSEEK_MODEL 覆盖，config/settings.yaml 是默认
+# 此处定义的是部委的"业务定位"和"工具能力"
+
+departments:
+
+  组织bu:
+    name: 组织部
+    code: organization
+    parent: claude
+    capabilities:
+      - 干部考察
+      - 人才选拔
+      - 班子调配
+      - 组织架构
+    tools: [Bash, Read, Grep, Glob, WebFetch, WebSearch]
+    max_concurrent: 2
+
+  宣传bu:
+    name: 宣传部
+    code: propaganda
+    parent: gemini
+    capabilities:
+      - 舆论引导
+      - 新闻稿撰写
+      - 形象塑造
+      - 宣传策略
+    tools: [WebSearch, WebFetch, GenerateText]
+    max_concurrent: 3
+
+  社工bu:
+    name: 社工部
+    code: social
+    parent: openai
+    capabilities:
+      - 民生调研
+      - 信访处理
+      - 社工项目
+      - 数据分析
+    tools: [CodeInterpreter, WebFetch, WebSearch]
+    max_concurrent: 2
+
+  政法bu:
+    name: 政法委
+    code: politics_law
+    parent: deepseek
+    capabilities:
+      - 法治研判
+      - 维稳分析
+      - 案件梳理
+      - 政策合规
+    tools: [WebSearch, WebFetch, Reasoning]
+    max_concurrent: 1
