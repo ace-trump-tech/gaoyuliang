@@ -39,5 +39,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - hardware/wiring.md（接线图）
 - hardware/windows_setup.md（Windows 配置）
 
-[Unreleased]: https://github.com/your-username/gaoyuliang/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/your-username/gaoyuliang/releases/tag/v1.0.0
+[Unreleased]: https://github.com/ace-trump-tech/gaoyuliang/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/ace-trump-tech/gaoyuliang/releases/tag/v1.0.0

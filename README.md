@@ -102,7 +102,7 @@
 
 ```powershell
 # Windows PowerShell
-git clone https://github.com/<your-username>/gaoyuliang.git
+git clone https://github.com/ace-trump-tech/gaoyuliang.git
 cd gaoyuliang
 
 python -m venv .venv
@@ -438,7 +438,7 @@ departments:
 - [silero-vad](https://github.com/snakers4/silero-vad) —— 开源 VAD 模型
 - [sounddevice](https://python-sounddevice.readthedocs.io/) —— Python 音频 I/O
 
-贡献者：[Your Name](https://github.com/your-username)
+贡献者：[ace-trump-tech](https://github.com/ace-trump-tech)
 
 ---
 

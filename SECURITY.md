@@ -13,7 +13,7 @@
 
 通过以下方式私下报告：
 
-- 📧 Email: <your-email@example.com>
+- 📧 Email: 通过 GitHub Security Advisories 报告
 - 或使用 GitHub Security Advisories（推荐）
 
 请包含：

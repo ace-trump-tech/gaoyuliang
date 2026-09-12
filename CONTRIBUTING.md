@@ -17,7 +17,7 @@
 ### 1. Fork & Clone
 
 ```bash
-git clone https://github.com/<your-username>/gaoyuliang.git
+git clone https://github.com/ace-trump-tech/gaoyuliang.git
 cd gaoyuliang
 ```
 
@@ -188,8 +188,8 @@ tts:
 ## ❓ 问题？
 
 - 提 Issue
-- 邮件：<your-email>
-- 微信公众号：<your-wechat>（可选）
+- 邮件：通过 GitHub Issues 公开讨论
+- 微信公众号：（暂无）
 
 ---
 
